@@ -8,11 +8,28 @@ btn_text: true
 footer: true
 title: ""
 author: ""
-encrypted_text: true
+encrypted_text: false
 permalink: /
 ---
 
-# Welcome
+# Welcome to oYOvOUo
 
 <br>
-> enjoy
+> oYOvOUo is jskyzero's Github organisation dedicated to archiving and sharing interesting code.
+
+```python
+if __name__ == "__main__":
+  world = "all about you"
+  otaku = Otaku()
+  otaku.change(world) # maybe
+  otaku.die()
+```
+
+
+### Project Todo
+
+|Name|Details|Staus|
+|--|--|--|
+||||
+||||
+

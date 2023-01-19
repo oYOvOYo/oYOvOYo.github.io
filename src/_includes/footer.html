@@ -22,8 +22,8 @@
       </a>
       {% endif %}
       <!-- github -->
-      {% if site.github %}
-      <a class="footer_btn" href="https://github.com/{{ site.github }}">
+      {% if site.github_user %}
+      <a class="footer_btn" href="https://github.com/{{ github_user }}">
         <i class="fa fa-github">
           {% if page.btn_text != false %}
           <p>Github</p>
@@ -114,8 +114,10 @@
     </ul>
     <!-- copyright -->
     <ul class="footer_copyright">
-      <li class="copyright">&copy; {{ site.time | date: '%Y' }} {{ site.title | escape }}. </li>
+      <li class="copyright">&copy; {{ site.time | date: '%Y' }} {{ site.title | escape }}.</li>
       <li>All rights reserved.</li>
+      <li>Enjoy :)</li>
+
     </ul>
   </nav>
 </div>

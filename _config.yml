@@ -64,7 +64,7 @@ defaults:
 # 5. Social Media Accounts
 email               : 
 linkedin            : 
-github              : 
+github_user         : 
 gitlab              : 
 website             : 
 twitter             : 
