@@ -13,10 +13,7 @@
       {% endif %}
       <!-- linkedin -->
       {% if site.linkedin %}
-      <a
-        class="footer_btn"
-        href="https://www.linkedin.com/in/{{ site.linkedin }}"
-      >
+      <a class="footer_btn" href="https://www.linkedin.com/in/{{ site.linkedin }}">
         <i class="fa fa-linkedin">
           {% if page.btn_text != false %}
           <p>LinkedIn</p>
@@ -86,10 +83,7 @@
       {% endif %}
       <!-- youtube -->
       {% if site.youtube %}
-      <a
-        class="footer_btn"
-        href="https://www.youtube.com/user/{{ site.youtube }}"
-      >
+      <a class="footer_btn" href="https://www.youtube.com/user/{{ site.youtube }}">
         <i class="fa fa-youtube">
           {% if page.btn_text != false %}
           <p>Youtube</p>
@@ -99,10 +93,7 @@
       {% endif %}
       <!-- steam -->
       {% if site.steam %}
-      <a
-        class="footer_btn"
-        href="https://steamcommunity.com/id/{{ site.steam }}"
-      >
+      <a class="footer_btn" href="https://steamcommunity.com/id/{{ site.steam }}">
         <i class="fa fa-steam">
           {% if page.btn_text != false %}
           <p>Steam</p>
@@ -123,10 +114,8 @@
     </ul>
     <!-- copyright -->
     <ul class="footer_copyright">
-      <li class="copyright">© 2015 - 2020</li>
-      {% if site.statement %}
-      <li>{{ site.statement }}</li>
-      {% endif %}
+      <li class="copyright">&copy; {{ site.time | date: '%Y' }} {{ site.title | escape }}. </li>
+      <li>All rights reserved.</li>
     </ul>
   </nav>
 </div>

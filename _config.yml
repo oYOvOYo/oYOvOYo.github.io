@@ -2,11 +2,10 @@
 title               : oYOvOYo
 owner               : "jskyzero"
 url                : "https://oyovoyo.github.io"
-baseurl            : "/oYOvOYo"
+baseurl            : ""
 permalink           : /:title/
 description         : "oyovoyo.github.io."
 markdown            : kramdown
-statement           : "enjoy :)"
 bgtext              : "ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]<>~" # texts randomly displayed in background
 # bgtext              : "ぁあぃいぅうぇえぉおかがきぎくぐけげこごさざしじすずせぜそぞただちぢっつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼぽまみむめもゃやゅゆょよらりるれろゎわ"
 
@@ -24,7 +23,7 @@ collections:
     output          : true
     permalink       : /:collection/:title/
     # An alias should be given or the UNDERSCORE will appeared 
-    alias           : "My Notes"
+    # alias           : "My Notes"
     # sort_by         : date
     # order: # specify post order manually
     #   - portfolio3.md
@@ -33,10 +32,12 @@ collections:
   hello:
     output: true
     permalink       : /:collection/:title/
+    alias           : "Hello World"
+
 
 
 # 3. Comment settings（disqus.com）
-disqus_username     : jskyzero
+disqus_username     : oyovoyo
 
 # 4. Default page settings (WILL BE overwriten by front-matters of a page)
 defaults:
@@ -49,7 +50,7 @@ defaults:
       btn_text            : true        # whether show button text by default
       collection_list     : true        # whether show archive button by default
       home_btn            : true        # whether show home by default
-      maximize            : true        # whether show maximize button by default
+      maximize            : false       # whether show maximize button by default
       encrypted_text      : false       # whether use encrytion function by default
       toc                 : true        # whether show table of content by default
       toc_level           : 3           # the toc depth by default
@@ -61,9 +62,9 @@ defaults:
       footer              : true        # whether show footer by default
 
 # 5. Social Media Accounts
-email               :  
+email               : 
 linkedin            : 
-github              : "jskyzero" 
+github              : 
 gitlab              : 
 website             : 
 twitter             : 
@@ -71,12 +72,13 @@ facebook            :
 instagram           : 
 youtube             : 
 steam               : 
-weibo               :
+weibo               : 
       
 # 6. Where things are
 source              : .
 destination         : ./_site
 collections_dir     : collections
+assets_path         : src/assets/
 plugins_dir         : src/_plugins # takes an array of strings and loads plugins in that order
 layouts_dir         : src/_layouts
 data_dir            : src/_data
